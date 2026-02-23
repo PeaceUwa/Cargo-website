@@ -1,0 +1,82 @@
+/* layout for service section */
+.services{
+  /*
+  border: 1px solid magenta;
+  */
+  padding: 1.5em;
+  margin-top: 4.3em;
+  font-size: 1.5rem;
+  /*
+  background: #0B3C5D;
+  color: #ffffff;
+  */
+}
+
+
+.service-card{
+  /*
+  border: 1px solid magenta;
+  */
+  width: 100%;
+  padding: .45em;
+}
+
+/* changing the layout for my service and color section on wider screens*/
+@media (min-width: 650px){
+  
+  .service-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    
+  }
+  
+  .service-card div{
+    padding: .5em;
+    /*
+    border: 1px solid magenta;
+    */
+  }
+  
+  
+  .yellow-card,
+  .pink-card,
+  .blue-card{
+    
+    color: #EAECF9;
+  }
+  
+  .yellow-card{
+     background: #A01F1F;
+    
+  }
+  
+  .pink-card{
+    background: #1B5E20;
+  }
+  
+  .blue-card{
+     background: #192788;
+  }
+}
+
+
+
+/* typography for service section */
+.services h2{
+  font-size: 3rem;
+}
+
+.services h3{
+  font-size: 2rem;
+}
+/*
+.services a{
+ 
+  text-decoration: none;
+ 
+  color: #f8f8f8;
+  
+}
+*/
