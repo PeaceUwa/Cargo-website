@@ -1,0 +1,63 @@
+/* layout */
+.testimonial{
+  /*
+  border: 1px solid magenta;
+  */
+  text-align: center;
+}
+
+/* for bogger screens */
+@media (min-width: 650px){
+  .testimonial{
+    padding: 0 1em;
+  }
+  
+  
+  
+  .testimonial-grid{
+    display: flex;
+    flex: 1;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.col{
+  background: #EEEEEB;
+  border-radius: 1.5em;
+  width: 31%;
+ 
+}
+}
+
+
+
+
+
+.testimonial img{
+  width: 20%;
+  height: 80px;
+  max-width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+  
+
+
+.customer{
+  display: flex;
+  align-items: center;
+  padding: .8em 1.2em;
+}
+
+
+/* typography */
+.customer h5{
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+.review{
+  font-size: 1.1rem;
+}
