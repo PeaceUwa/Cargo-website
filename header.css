@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  width: 100%;
+background: navy;
+  /*
+  border: 1px solid magenta;
+  */
+}
+
+
+body h2{
+  font-size: 3rem;
+}
+
+body h3{
+  font-size: 2rem;
+}
+
+header{
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+  /*
+  position: sticky;
+  top: 0;
+  */
+}
+
+
+
+
+header img{
+  width: 50%;
+  object-fit: cover;
+  margin: 0;
+}
+
+/* typography styling*/
+header ul{
+  list-style: none;
+  cursor: pointer;
+}
+
+header li{
+  margin: .5em 3em;
+  font-size: 1.1rem;
+}
+
+
+
+@media screen and (min-width: 645px){
+  
+  
+  
+  header{
+    width: 100%;
+    max-width: 960px;
+    background: hotpink;
+    overflow: none;
+  }
+  
+  
+  
+  
+  header ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  
+  
+}
