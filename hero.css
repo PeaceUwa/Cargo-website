@@ -1,0 +1,61 @@
+/* style for my layout
+*/
+
+.hero{
+  /*
+  border: 1px solid magenta;
+  */
+  margin-top: 2.5em;
+  text-align: center;
+  padding: 2em 1em;
+  
+}
+
+.hero-text{
+  text-align: center;
+  width: 100%;
+}
+
+.hero h1{
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero p{
+  
+  font-size: 1.2rem;
+  margin-top: 0;
+  color: #3A3E6A;
+}
+
+.track-btn{
+  background: #3A3E6A;
+  width: 40%;
+  height: auto;
+  padding: .2em .5em;
+  border-radius: 2.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  color: #f8f8f8;
+  
+}
+
+
+.hero button:hover,
+.hero button:focus{
+  background: #4CEEEC;
+  color: navy;
+  transform: scale(1.05);
+  
+  
+}
+
+/* media query to change my background on bigger screens 
+*/
+
+@media (min-width: 645px){
+   .hero{
+     background: #D6DAFD
+   }
+}
