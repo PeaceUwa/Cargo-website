@@ -1,0 +1,48 @@
+.tracking{
+  width: 100%;
+  /*
+  border: 1px solid magenta;
+  */
+  padding: .5em;
+  margin-top: 5.3em;
+  text-align: center;
+}
+
+.tracking div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-bottom;
+  margin-bottom: 3em;
+}
+
+
+
+.tracking input{
+  
+  width: 40%;
+  height: auto;
+  padding: 1em;
+  border-radius: 1.8em;
+  border: 2px solid darkorange;
+  
+  
+  
+}
+
+
+.tracking input::placeholder{
+  margin: 0;
+  font-size:1.3em ;
+  
+}
+
+
+/* typography */
+.tracking h2{
+  font-size: 3rem;
+  /*
+  white-space: nowrap;
+  */
+  margin-bottm: 2em;
+}
