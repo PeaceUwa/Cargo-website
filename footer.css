@@ -1,0 +1,50 @@
+/* typography*/
+footer a{
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.company-name {
+  font-size: 2.5rem;
+}
+.social-handles p{
+  font-weight: 1.5rem;
+  font-weight: 600;
+}
+.social-handles {
+  padding-bottom: 1em;
+  border-bottom: lightgray 3px solid;
+}
+
+
+/* layout */
+footer{
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
+}
+
+@media (min-width: 675px){
+  .footer-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+  }
+  
+  .footer-flex div{
+    width: 32%;
+  }
+}
+
+footer img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.closing-line{
+  font-size: 1.1rem;
+  color: slategray;
+  margin-top: 3em;
+}
+
