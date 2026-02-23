@@ -1,0 +1,116 @@
+/* layout */
+.pricing{
+  /*
+  border: 1px solid magenta;
+  */
+  padding: 1em;
+  text-align: center;
+}
+.pricing button{
+  width: 40%;
+  text-align: center;
+  max-width: 340px;
+  height: auto;
+  padding-left: .5em;
+  padding-right: .5em;
+  min-height: 40px;
+  max-height: 45px;
+  color: #f8f8f8; 
+  font-size: 1.2rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.choose-plan-btn{
+  background: #086188;
+  border-radius: 2em;
+  transition: background-color 0.3s ease;
+}
+
+.choose-plan-btn:hover,
+.choose-plan-btn:focus{
+  background-color: #07306A;
+  transform: scale(1.05);
+  
+}
+.request-quote-btn{
+  width: 40% ;
+  background: #2D4B2F;
+  border-radius: 2em;
+  transition: background-color 0.3s ease;
+}
+
+.request-quote-btn:hover,
+.request-quote-btn:focus{
+  background-color: #346A4B;
+  transform: scale(1.05);
+}
+
+.pricing li{
+  margin-left: 0;
+}
+
+.pricing-card{
+  width: 100%;
+  display: flex;
+  /*
+  border: 1px solid magenta;
+  */
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2em;
+  /*
+  padding: 1em;
+  */
+}
+/* layout for large screen */
+@media (min-width: 650px){
+
+.pricing-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  
+.pricing-card div{
+  width: 32%;
+  background: #F5F5DC;
+}
+}
+
+.pricing-card div{
+  width: 100%;
+  /*
+  border: 1px solid magenta;
+  */
+  padding-bottom: 1.5em;
+  
+}
+
+
+
+
+
+/* typography */
+.pricing h2{
+  font-size: 3rem;
+}
+
+.pricing p{
+  font-size: 1.5rem;
+}
+
+
+.pricing ul{
+  font-size: 1.5rem;
+/*  list-style-position: inside; */
+  
+}
+
+
+.price{
+  font-size: 3.5rem;
+  color: darkgreen;
+}
